@@ -15,8 +15,15 @@
             <Label Text="Distancia" />
             <Entry BindingContext="rendimento" x:Name="txt_rendimento" />
 
-            <Label Text="Rendimento" /> 
-            <Entry BindingContext="rendimento" x
+            <Label Text="Rendimento" />
+            <Entry BindingContext="rendimento" x:Name="txt_rendimento"/>
+
+            <Label Text="Preço Combustivel"/>
+            <Entry BindingContext="valor_combustivel" x:Name="txt_combustivel" />
+
+            <Button Margin="5" x:Name="btn_CriarPedagio" Text="Adicionar Pedagio" Clicked="btn_CriarPedagio_Clicked"/>
+            <Button Margin="5" x:Name="btn_listaPedagio" Text="Calcular" Clicked="btn_listaPedagio_Clicked" /> 
+            <Button Margin="5" x:Name="btn_calcular" Text="Calcular" Clicked="btn_calcular_Clicked"
         </StackLayout>
     </ScrollView>
 

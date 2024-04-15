@@ -20,6 +20,21 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void btn_CriarPedagio_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_listaPedagio_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_calcular_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
