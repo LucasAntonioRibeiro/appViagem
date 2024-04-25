@@ -16,7 +16,7 @@
             <Entry BindingContext="rendimento" x:Name="txt_rendimento" />
 
             <Label Text="Rendimento" />
-            <Entry BindingContext="rendimento" x:Name="txt_rendimento"/>
+            <Entry BindingContext="rendimento" x:Name="txt_rendi"/>
 
             <Label Text="Preço Combustivel"/>
             <Entry BindingContext="valor_combustivel" x:Name="txt_combustivel" />

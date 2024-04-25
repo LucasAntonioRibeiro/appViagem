@@ -1,6 +1,4 @@
-﻿using SQLite;
-using SQLitePCL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +14,7 @@ namespace appViagem.Models
         double _rendimento;
         double _valor_combus;
 
-        [AutoIncrement, PrimaryKey]
+        
 
         public static int id { get; set; }
 
